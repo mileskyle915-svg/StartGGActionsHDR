@@ -32,8 +32,8 @@ jobs:
         # But first we read the WEBHOOK secret and create an
         # environment variable with the same name.
         env:
-          STATE: "NC"
-          TIMEZONE: "EST"
+          STATE: "LA"
+          TIMEZONE: "CDT"
           GAME_ID: 1386
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           STARTGG_TOKEN: ${{ secrets.STARTGG_TOKEN }}
